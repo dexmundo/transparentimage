@@ -17,7 +17,10 @@ def remove_background_api():
         output_image.save(buffered, format="PNG")
         img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
 
-        return jsonify({'image': img_str})
+        response = make_response(img_str)
+        response.headers['Content-Type'] = 'image/png'
+        return response
+        
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
