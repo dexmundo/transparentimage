@@ -1,4 +1,2 @@
-rembg
 pillow
-numpy
 flask
