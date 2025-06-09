@@ -1,0 +1,5 @@
+# requirements.txt
+rembg
+pillow
+numpy
+flask
