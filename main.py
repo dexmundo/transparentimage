@@ -3,7 +3,6 @@ from rembg import remove
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 import base64
 from io import BytesIO
-from PIL import Image
 
 app = Flask(__name__)
 
