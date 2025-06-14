@@ -5,13 +5,11 @@ name = "pypi"
 
 [packages]
 rembg="*"
-pillow="*"
 flask="*"
 
 
 [dev-packages]
 rembg="*"
-pillow="*"
 flask="*"
 
 [requires]
