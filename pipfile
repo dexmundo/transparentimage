@@ -5,12 +5,10 @@ name = "pypi"
 
 [packages]
 rembg="*"
-flask="*"
 
 
 [dev-packages]
 rembg="*"
-flask="*"
 
 [requires]
 python_version = "3.9"
